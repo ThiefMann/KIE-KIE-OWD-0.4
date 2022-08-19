@@ -1,0 +1,57 @@
+{
+    "id": "mf_sherman_alt_metriini",
+    "source": "HA",
+    "variant": "SHERMAN",
+    "name": "METRIINI",
+    "mechtype": [
+      "Artillery",
+      "Striker"
+    ],
+    "y_pos": 25,
+    "license_level": 2,
+    "description": "<p>This variant of the Sherman can be taken at rank II of the SHERMAN license instead of the base Frame, or gained as exotic gear through play. A familiar frame to the Rubblefolk, the Sherman has been tinkered with through and throughout most of the Rubblefolk’s history, even before their liberation from the Maker’s influence. Originally used as a pest-cleaning frame, the Metriini models were armed with shaped demolition charges, meant to cause controlled explosions to seal off dangerous tunnels or to deliver incendiary compounds through narrow openings without endangering the user and their companions, something the modified Genghis and Tokugawa models failed at. The additional power of the reactor was redirected towards a progressive flight engine, to allow the frame to soar through the skies of Jovo and patrol the surrounding areas to fend off the megafauna.",
+    "mounts": [
+      "Flex",
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": 1,
+      "stress": 4,
+      "structure": 4,
+      "armor": 0,
+      "hp": 6,
+      "evasion": 10,
+      "edef": 6,
+      "heatcap": 8,
+      "repcap": 4,
+      "sensor_range": 10,
+      "tech_attack": -2,
+      "save": 10,
+      "speed": 4,
+      "sp": 5
+    },
+    "traits": [
+      {
+        "name": "Fusion Jets",
+        "description": "The Metriini can hover while in the Danger Zone. If the Metriini exits the danger zone, this benefit lasts until the end of its turn, at which point it falls as normal."
+      },
+      {
+        "name": "Clear Skies...",
+        "description": "The Metriini’s Launcher and Cannon weapons gain +1 Accuracy on attacks against flying characters."
+      },
+      {
+        "name": "... And Scorched Valleys",
+        "description": "When the Metriini clears all Heat, its next Launcher or Cannon attack deals +1d6 bonus Burn on a critical hit. This effect doesn't stack."
+      }
+    ],
+    "core_system": {
+      "name": "SHAPED-DEMOLITION MK IX MOLTEN CORE",
+      "description": "It took the Rubblefok several prototypes and testing deployments to develop a functional payload system able to maneuver through the intricate tunnels of the Rubble. The MK 9 is not the latest of these designs but instead the most reliable of them, still requiring advanced calculations from the user to make accurate use of the deployed napalm.",
+      "active_name": "Jovo's Solar Rain",
+      "active_effect": "Your SD9 MOLTENCORE immediately gains 3 charges, up to a maximum of 4. Additionally, 1/round when you attack with the SD9 MOLTENCORE, you can turn a number of free spaces equal to the charges used for the attack into dangerous terrain that deals Energy damage, which last until the end of your next turn.",
+      "activation": "Protocol",
+      "integrated": [
+        "mw_metriini_integrated"
+      ]
+    }
