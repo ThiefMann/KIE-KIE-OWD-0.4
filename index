@@ -4,3 +4,5 @@ const data = {
   frames: require('./lib/frames.json'),
   weapons: require('./lib/weapons.json'),
 }
+
+module.exports = data
