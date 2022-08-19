@@ -1,0 +1,6 @@
+"use strict"
+
+const data = {
+  frames: require('./lib/frames.json'),
+  weapons: require('./lib/weapons.json'),
+}
