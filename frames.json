@@ -90,9 +90,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478669262918/KIE_ScarabFinalNoBG.png",
     "y_pos": "36"
   },
-  
-  
-  
   {
     "id": "kie_firefly",
     "source": "KIE",
@@ -185,9 +182,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213477608099991/KIE_FireflyFinalNoBG.png",
     "y_pos": "11"
   },
-  
-  
-  
   {
     "id": "kie_weevil",
     "source": "KIE",
@@ -279,9 +273,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213479055143054/KIE_WeevilFinalNoBG.png",
     "y_pos": "19"
   },
-  
-  
-  
   {
     "id": "kie_stag",
     "source": "KIE",
@@ -375,9 +366,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478191104143/KIE_HerculesFinalNoBG.png",
     "y_pos": "50"
   },
-  
-  
-  
   {
     "id": "kie_longhorn",
     "source": "KIE",
@@ -457,9 +445,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478191104143/KIE_HerculesFinalNoBG.png",
     "y_pos": "50"
   },
-  
-  
-  
   {
     "id": "kie_hercules",
     "source": "KIE",
@@ -553,9 +538,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478191104143/KIE_HerculesFinalNoBG.png",
     "y_pos": "50"
   },
-  
-  
-  
   {
     "id": "mf_pillbug",
     "license_level": 2,
@@ -652,8 +634,6 @@
     "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_nelson.png",
     "license_id": "mf_nelson"
   }
-  
-  
   {
     "id": "kie_metriini",
     "source": "HA",
@@ -787,9 +767,6 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1009827494712574074/KIE_WhirligigProto.png",
     "y_pos": "20"
   },
-  
-  
-  
   {
     "id": "kie_bombardier",
     "license_level": 2,
@@ -845,8 +822,4 @@
     },
     "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_genghis.png"
   },
-  
-  
-  
-  
 ]
