@@ -1,4 +1,19 @@
-[
+[  
+  {
+    "id": "kie_hardlightchrysalis",
+    "name": "HARDLIGHT CHRYSALIS",
+    "source": "KIE",
+    "effect": "<p>Choose one of your mech skills, you gain +1 Accuracy on all checks and saves made with that skill. You can change the chosen skill on a rest or full repair.</p><p>&nbsp;Additionally, whenever you rest or perform a full repair, your mech projects a faint field of protective energy within a burst 6 area, shielding you and your nearby allies from any dangerous weather conditions and other effects originating outside the area. No effect, attack or character can pass through the shield unless you allow it, and you can control the conditions inside this area however you please (temperature, moisture, light level, etc). When the scene ends or if you boot up your mech, the field dissipates. This field cannot be activated in any way during combat.</p>",
+    "description": "<p>Designed to accompany Rubbleborn pioneers in more hazardous conditions, the Hardlight Chrysalis creates a protective “shell” that can turn any hostile environment into a suitable atmosphere with comfortable conditions. The power required to keep this field up, added to the necessity of exposing most of the frame's inner systems, creates a considerable risk when deploying the chrysalis. Because of this, it cannot be activated during high-intensity or combat situations.</p>",
+    "mounted_effect": "",
+    "actions": [],
+    "bonuses": [],
+    "synergies": [],
+    "deployables": [],
+    "counters": [],
+    "integrated": [],
+    "special_equipment": []
+  },
   {
     "id": "KIE_AVS",
     "name": " ARTIFICIAL VASCULAR SYSTEMS",
@@ -24,21 +39,6 @@
         "trigger": ""
       }
     ],
-    "bonuses": [],
-    "synergies": [],
-    "deployables": [],
-    "counters": [],
-    "integrated": [],
-    "special_equipment": []
-  },
-  {
-    "id": "kie_hardlightchrysalis",
-    "name": "HARDLIGHT CHRYSALIS",
-    "source": "KIE",
-    "effect": "<p>Choose one of your mech skills, you gain +1 Accuracy on all checks and saves made with that skill. You can change the chosen skill on a rest or full repair.</p><p>&nbsp;Additionally, whenever you rest or perform a full repair, your mech projects a faint field of protective energy within a burst 6 area, shielding you and your nearby allies from any dangerous weather conditions and other effects originating outside the area. No effect, attack or character can pass through the shield unless you allow it, and you can control the conditions inside this area however you please (temperature, moisture, light level, etc). When the scene ends or if you boot up your mech, the field dissipates. This field cannot be activated in any way during combat.</p>",
-    "description": "<p>Designed to accompany Rubbleborn pioneers in more hazardous conditions, the Hardlight Chrysalis creates a protective “shell” that can turn any hostile environment into a suitable atmosphere with comfortable conditions. The power required to keep this field up, added to the necessity of exposing most of the frame's inner systems, creates a considerable risk when deploying the chrysalis. Because of this, it cannot be activated during high-intensity or combat situations.</p>",
-    "mounted_effect": "",
-    "actions": [],
     "bonuses": [],
     "synergies": [],
     "deployables": [],
@@ -77,11 +77,12 @@
     "special_equipment": []
   },
   {
-    "id": "kie_srh",
-    "name": "SHORT-RANGE HIVEMIND",
+    "id": "kie_sps",
+    "name": "SELF-PERPETUATING SYSTEMS",
     "source": "KIE",
-    "effect": "<p>Allied characters within Sensor Range and Line of Sight gain +1 ACC on all Saves, as long as you are not Stunned.</p>",
-    "description": "<p>&lt;placeholder flavor text&gt;</p>",
+    "effect": "<p>Designed for deep-core and deep-space operations, modifications of specialized nano-cells can allow a component to be regrown rapidly. The system requires extreme amounts of backup energy and material, but proves to be essential on month-long missions outside of established supply networks.</p>",
+    "description": "<p>Choose one system or weapon. If it is destroyed, it is automatically repaired at the end of the Scene for no Repair cost. This can only occur an amount of times equal to half your GRIT each mission, and occurs even when rebuilding a Destroyed mech. If the system is a Deployable or Drone, and the Deployable or Drone was damaged or destroyed, it is automatically restored to full HP at the end of the scene. This does not count against the times Self-Perpetuating Systems can trigger.
+</p>",
     "mounted_effect": "",
     "actions": [],
     "bonuses": [],
