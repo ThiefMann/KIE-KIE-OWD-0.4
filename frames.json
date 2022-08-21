@@ -1,122 +1,30 @@
 [
   {
-    "id": "kie_firefly",
-    "source": "KIE",
-    "license_level": 2,
-    "name": "FIREFLY",
-    "mechtype": [
-      "Striker"
-    ],
-    "description": "<p>Designed primarily as a mining platform, the Firefly is derived in part from the Harrison Armory Sherman and Ghengis chassis, though heavily-modified. However, lack of access to the technologies used to regulate those mechs’ reactors caused the Firefly’s to become relatively unstable under stress. Ever-resourceful, the Rubblefolk that founded KIE decided to “double-down”, allowing the machine to utilize its reactor to melt objects and shield itself. Its effectiveness is only matched by its danger that it poses to its pilot.</p>",
-    "mounts": [
-      "Flex",
-      "Main/Aux"
-    ],
-    "stats": {
-      "size": 1,
-      "structure": 4,
-      "stress": 4,
-      "armor": "2",
-      "hp": 10,
-      "evasion": "7",
-      "edef": "7",
-      "heatcap": "4",
-      "repcap": "5",
-      "sensor_range": "8",
-      "tech_attack": "-1",
-      "save": "10",
-      "speed": "3",
-      "sp": 6
-    },
-    "traits": [
-      {
-        "name": "FEED THE FORGE",
-        "use": "",
-        "description": "<p>Burn or failing to clear Burn cannot reduce the Firefly’s HP below 1.</p>",
-        "actions": [],
-        "bonuses": [],
-        "counters": [],
-        "deployables": [],
-        "synergies": [],
-        "integrated": [],
-        "special_equipment": []
-      },
-      {
-        "name": "PLAYING WITH FIRE",
-        "use": "",
-        "description": "<p>When the Firefly succeeds on an Engineering Check to clear Burn, it may opt to keep the Burn but not take damage.</p>",
-        "actions": [],
-        "bonuses": [],
-        "counters": [],
-        "deployables": [],
-        "synergies": [],
-        "integrated": [],
-        "special_equipment": []
-      },
-      {
-        "name": "MOLTEN VEINS",
-        "use": "",
-        "description": "<p>When it melts down or self-destructs, the Firefly deals Burn instead of Explosive Damage.</p>",
-        "actions": [],
-        "bonuses": [],
-        "counters": [],
-        "deployables": [],
-        "synergies": [],
-        "integrated": [],
-        "special_equipment": []
-      }
-    ],
-    "core_system": {
-      "name": "TYPE-43 FUSION FURNACE",
-      "active_name": "Spread the Flames",
-      "active_effect": "<p>The Firefly selects hostile characters of its choice within Sensor Range and Line of Sight. These characters must succeed on an Engineering Save or take Burn equal to the Firefly’s current Burn on a failure. On a success, they take half of the Firefly’s current Burn.<br><br>For the rest of the Scene, after its turn ends, but before it makes a check to clear burn, the Firefly gains Overshield equal to the amount of Burn it currently has. This lasts until the start of its next turn, or until depleted.</p><p>This ability is <strong>Efficient</strong> and will refund 1 Core Power at the end of any scene in which this ability was used.</p>",
-      "activation": "Full",
-      "description": "<p><em>The Type-43 Fusion Furnace is built off prototypes of “hot fusion” reactors used by the Rubblefolk early in their history, along with Harrison Armory’s own reactor technologies. While they currently have switched to geothermal power, the output of the Fusion Furnace is extremely high; perhaps a bit too high for even its mech to handle.</em></p>",
-      "deactivation": "",
-      "use": "",
-      "active_actions": [],
-      "active_bonuses": [],
-      "active_synergies": [],
-      "passive_name": "",
-      "passive_effect": "",
-      "passive_actions": [],
-      "passive_bonuses": [],
-      "passive_synergies": [],
-      "deployables": [],
-      "counters": [],
-      "integrated": [],
-      "special_equipment": [],
-      "tags": []
-    },
-    "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213477608099991/KIE_FireflyFinalNoBG.png",
-    "y_pos": "11"
-  },
-  {
     "id": "kie_scarab",
     "source": "KIE",
-    "license_level": 2,
+    "license_level": "2",
     "name": "SCARAB",
     "mechtype": [
       "Defender"
     ],
-    "description": "<p>The first design made by the Rubblefolk following their contact with the wider galaxy, the SCARAB is a defender first and foremost. Primarily meant to protect mining teams from debris and local wildlife, the Scarab quickly replaced its predecessor, the “Rubbleshield”.</p>",
+    "description": "<p>The first design made by the Rubblefolk following their contact with the wider galaxy, the SCARAB is a defender first and foremost. Primarily meant to protect mining teams from debris and local wildlife, the Scarab quickly replaced its predecessor, the “Rubbleshield”.</p><p>Widespread through the entirety of the planet, the simple base design of the Scarab provided a flexible basis to create civilian-grade working rigs: building, transport, caregivers and many more. Only once they are given enough training and reaching a certain age, are the Scarabs upgraded into the protector roles, being granted the additional battery capacitors and light projectors necessary for the deployment and control of the energy barriers typical of the role. Due to this personal growth required before the upgrade, no two scarabs are the same, despite their massive numbers, their shields are their fingerprints; each one unique in pattern, energy readings and shape. It is not uncommon for Scarabs protector cadres to bond with each other based on the similarities of their shields, usually evolving into squad bonds that can last decades as the shields sync with each other, increasing efficiency and defensive affinity.</p>",
     "mounts": [
       "Flex"
     ],
     "stats": {
-      "size": 2,
-      "structure": 4,
-      "stress": 4,
-      "armor": 0,
+      "size": "2",
+      "structure": "4",
+      "stress": "4",
+      "armor": "0",
       "hp": "8",
       "evasion": "9",
       "edef": "8",
       "heatcap": "6",
       "repcap": "5",
-      "sensor_range": 10,
-      "tech_attack": 0,
+      "sensor_range": "10",
+      "tech_attack": "0",
       "save": "10",
-      "speed": 4,
+      "speed": "4",
       "sp": "7"
     },
     "traits": [
@@ -169,7 +77,7 @@
       "active_bonuses": [],
       "active_synergies": [],
       "passive_name": "Hive Defender",
-      "passive_effect": "<p>Whenever one of the Scarab's SHIELD systems is used, the Scarab gains 4 Overshield. If an ally activated it, they also gain this Overshield</p><p>Overshield generated in this manner stacks, and does not replace existing Overshield, but a character cannot have more Overshield than its maximum HP.</p>",
+      "passive_effect": "<p>Whenever one of the Scarab's SHIELD systems is used, the Scarab gains 2 Overshield. If an ally activated it, they also gain this Overshield</p><p>Overshield generated in this manner stacks, and does not replace existing Overshield, but a character cannot have more Overshield than its maximum HP.</p>",
       "passive_actions": [],
       "passive_bonuses": [],
       "passive_synergies": [],
@@ -182,10 +90,108 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478669262918/KIE_ScarabFinalNoBG.png",
     "y_pos": "36"
   },
+  
+  
+  
+  {
+    "id": "kie_firefly",
+    "source": "KIE",
+    "license_level": "2",
+    "name": "FIREFLY",
+    "mechtype": [
+      "Striker"
+    ],
+    "description": "<p>Designed primarily as a mining platform, the Firefly is derived in part from the Harrison Armory Sherman and Ghengis chassis, though heavily-modified. However, lack of access to the technologies used to regulate those mechs’ reactors caused the Firefly’s to become relatively unstable under stress. Ever-resourceful, the Rubblefolk that founded KIE decided to “double-down”, allowing the machine to utilize its reactor to melt objects and shield itself. Its effectiveness is only matched by its danger that it poses to its pilot.</p>",
+    "mounts": [
+      "Flex",
+      "Main/Aux"
+    ],
+    "stats": {
+      "size": "1",
+      "structure": "4",
+      "stress": "4",
+      "armor": "2",
+      "hp": "10",
+      "evasion": "7",
+      "edef": "7",
+      "heatcap": "4",
+      "repcap": "5",
+      "sensor_range": "8",
+      "tech_attack": "-1",
+      "save": "10",
+      "speed": "3",
+      "sp": "6"
+    },
+    "traits": [
+      {
+        "name": "FEED THE FORGE",
+        "use": "",
+        "description": "<p>Burn or failing to clear Burn cannot reduce the Firefly’s HP below 1.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "PLAYING WITH FIRE",
+        "use": "",
+        "description": "<p>When the Firefly succeeds on an Engineering Check to clear Burn, it may opt to keep the Burn but not take damage.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "MOLTEN VEINS",
+        "use": "",
+        "description": "<p>When it melts down or self-destructs, the Firefly deals Burn instead of Explosive Damage.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      }
+    ],
+    "core_system": {
+      "name": "TYPE-43 FUSION FURNACE",
+      "active_name": "Spread the Flames",
+      "active_effect": "<p>The Firefly selects hostile characters of its choice within Sensor Range and Line of Sight. These characters must succeed on an Engineering Save or take Burn equal to the Firefly’s current Burn on a failure. On a success, they take half of the Firefly’s current Burn.<br><br>For the rest of the Scene, after its turn ends, but before it makes a check to clear burn, the Firefly gains Overshield equal to the amount of Burn it currently has. This lasts until the start of its next turn, or until depleted.</p><p>This ability is <strong>Efficient</strong> and will refund 1 Core Power at the end of any scene in which this ability was used.</p>",
+      "activation": "Full",
+      "description": "<p><em>The Type-43 Fusion Furnace is built off prototypes of “hot fusion” reactors used by the Rubblefolk early in their history, along with Harrison Armory’s own reactor technologies. While they currently have switched to geothermal power, the output of the Fusion Furnace is extremely high; perhaps a bit too high for even its mech to handle, giving it the nickname “The Second Sun of Jovo”.</em></p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213477608099991/KIE_FireflyFinalNoBG.png",
+    "y_pos": "11"
+  },
+  
+  
+  
   {
     "id": "kie_weevil",
     "source": "KIE",
-    "license_level": 2,
+    "license_level": "2",
     "name": "WEEVIL",
     "mechtype": [
       "Support"
@@ -195,15 +201,15 @@
       "Main"
     ],
     "stats": {
-      "size": 0.5,
-      "structure": 4,
-      "stress": 4,
+      "size": "0.5",
+      "structure": "4",
+      "stress": "4",
       "armor": "1",
       "hp": "6",
       "evasion": "12",
       "edef": "12",
       "heatcap": "5",
-      "repcap": "8",
+      "repcap": "2",
       "sensor_range": 10,
       "tech_attack": 0,
       "save": "11",
@@ -238,7 +244,7 @@
       {
         "name": "Whatever Works, Works",
         "use": "",
-        "description": "<p>The Weevil may expend 2 Repairs instead of a charge when activating a Limited System.</p>",
+        "description": "<p>The Weevil may expend 2 Repairs instead of a charge when activating a Limited System or Weapon.</p>",
         "actions": [],
         "bonuses": [],
         "counters": [],
@@ -273,10 +279,191 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213479055143054/KIE_WeevilFinalNoBG.png",
     "y_pos": "19"
   },
+  
+  
+  
+  {
+    "id": "kie_stag",
+    "source": "KIE",
+    "license_level": "2",
+    "name": "STAG",
+    "mechtype": [
+      "Striker",
+      "Controller"
+    ],
+    "description": "<p>Taking its name from its industrial-grade pincers, the KIE Stag is primarily designed for cargo transportation and moving of heavy objects, despite its size. Early designs of the Stag served as militia mechs for the Rubblefolk, even prior to its combat refit, as they were strong and durable.</p>",
+    "mounts": [
+      "Flex",
+      "Heavy"
+    ],
+    "stats": {
+      "size": "0.5",
+      "structure": "4",
+      "stress": "4",
+      "armor": "3",
+      "hp": "5",
+      "evasion": "7",
+      "edef": "6",
+      "heatcap": "4",
+      "repcap": "6",
+      "sensor_range": "10",
+      "tech_attack": "-2",
+      "save": "11",
+      "speed": "3",
+      "sp": "8"
+    },
+    "traits": [
+      {
+        "name": "Grasping Mandibles",
+        "use": "",
+        "description": "<p>When the Stag grapples a hostile character, that character becomes Jammed until the grapple is broken. It may only Jam one character at a time. Additionally, the Stag always counts as the larger character in a Grapple, regardless of size.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "Rapid Reaction Systems",
+        "use": "",
+        "description": "<p>The Stag can take Reactions while Grappling.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "Cargo Clamps",
+        "use": "",
+        "description": "<p>While the Stag is grappling, it is immune to Involuntary Movement unless it decides to be affected. If a character grappled by the Stag suffers involuntary movement, the Stag copies the movement, as long as it can maintain adjacency.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      }
+    ],
+    "core_system": {
+      "name": "DETRITUS COMPACTOR",
+      "active_name": "Crushing Jaws",
+      "active_effect": "<p>All enemies that are currently Grappled by the Stag or its Systems must succeed on a Hull Save or take 2d6+3 AP Kinetic Damage and become Shredded until the end of the Scene. On a successful save, they take half damage, and are not Shredded.</p>",
+      "activation": "Quick",
+      "description": [],
+      "deactivation": [],
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": [],
+      "passive_effect": [],
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478191104143/KIE_HerculesFinalNoBG.png",
+    "y_pos": "50"
+  },
+  
+  
+  
+  {
+    "id": "kie_longhorn",
+    "source": "KIE",
+    "license_level": "2",
+    "name": "LONGHORN",
+    "mechtype": [
+      "Defender/Support"
+    ],
+    "description": "<p>When the Rubbleborn were exposed to the outside world, their communal nature led to several incidents of culture shock. One such infamous occurrence was the introduction of the ancient game of “Chess” to their knowledge. Being Rubbleborn, they decided that the way to play was to have each individual piece controlled by a single individual. Because of this, a specialized communications relay was required to process and execute the specific requests of each person.</p><p> As their mining efforts expanded and grew more complex, this relay was brought into industrial-grade specifications and mounted in a chassis, purpose-built for such a role. Known as the “Longhorn”, this chassis provides communications and ECM capabilities unrivaled by almost any other model.</p>",
+    "mounts": [
+      "Flex"
+    ],
+    "stats": {
+      "size": "1",
+      "structure": "4",
+      "stress": "4",
+      "armor": "0",
+      "hp": "8",
+      "evasion": "7",
+      "edef": "12",
+      "heatcap": "5",
+      "repcap": "4",
+      "sensor_range": "15",
+      "tech_attack": "+1",
+      "save": "10",
+      "speed": "4",
+      "sp": "10"
+    },
+    "traits": [
+      {
+        "name": "Divine Word",
+        "use": "",
+        "description": "<p>1/round, the Longhorn can use a tech action as if it had a range of Hivemind at the cost of 1 heat.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "Tech Guardian",
+        "use": "",
+        "description": "<p>Tech and Smart weapon attacks made against allied characters adjacent to the LONGHORN suffer +1 Difficulty.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      }
+    ],
+    "core_system": {
+      "name": "\"Hivespeaker\" Relay Node",
+      "active_name": "Spread the Word",
+      "active_effect": "<p>Frequency: 1/scene. </p><p>Trigger: The Longhorn or an adjacent ally benefits from a tech action.</p><p>Effect: The Longhorn applies the same tech action to all adjacent allied characters.</p>",
+      "activation": "Reaction",
+      "description": "1CP, Efficient",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "",
+      "passive_effect": "",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478191104143/KIE_HerculesFinalNoBG.png",
+    "y_pos": "50"
+  },
+  
+  
+  
   {
     "id": "kie_hercules",
     "source": "KIE",
-    "license_level": 2,
+    "license_level": "2",
     "name": "HERCULES",
     "mechtype": [
       "Artillery"
@@ -288,17 +475,17 @@
       "Heavy"
     ],
     "stats": {
-      "size": 3,
-      "structure": 4,
-      "stress": 4,
+      "size": "3",
+      "structure": "4",
+      "stress": "4",
       "armor": "1",
-      "hp": 10,
-      "evasion": 6,
-      "edef": "9",
+      "hp": "10",
+      "evasion": "6",
+      "edef": "7",
       "heatcap": "5",
       "repcap": "5",
       "sensor_range": "15",
-      "tech_attack": 0,
+      "tech_attack": "0",
       "save": "10",
       "speed": "2",
       "sp": "7"
@@ -366,6 +553,107 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1005213478191104143/KIE_HerculesFinalNoBG.png",
     "y_pos": "50"
   },
+  
+  
+  
+  {
+    "id": "mf_pillbug",
+    "license_level": 2,
+    "source": "IPS-N",
+    "name": "PILLBUG",
+    "variant": "NELSON",
+    "mechtype": [
+      "Controller",
+      "Striker"
+    ],
+    "y_pos": 35,
+    "description": "<p>This variant of the Nelson can be taken at rank II of the NELSON license instead of the base Frame, or gained as exotic gear through play.</p><p>The KIE-OWD Pillbug originally started life as an up-armored Nelson variant, replacing the armor plating with a malleable deterrence field, a thought experiment by Rubbleborn engineers to find novel methods in combating pirate boarding parties. Originally just theoretical, an intercepted shipment from a nearby mining colony would see the Rubbleborn there utilize the Pillbug in combat, where it proved to be a promising design.</p><p>Following negotiations with the mining colony, the newly-founded Off-World Division (OWD) of KIE decided to start collaborating with other manufacturers. In a show of good faith, the Pillbug’s schematics were sent to IPS-N proper. Following collaborative refinements, including an outside-of-the-box repurposing of the Nelson’s null-k plating and perpetual motion drive to be focused on what was around the mech, rather than what was inside of it.</p>",
+    "mounts": [
+      "Flex",
+      "Flex",
+      "Main"
+    ],
+    "stats": {
+      "size": 1,
+      "structure": 4,
+      "stress": 4,
+      "armor": 0,
+      "hp": 12,
+      "evasion": 8,
+      "edef": 6,
+      "heatcap": 4,
+      "repcap": 6,
+      "sensor_range": 8,
+      "tech_attack": -2,
+      "save": 11,
+      "speed": 4,
+      "sp": 6
+    },
+    "traits": [
+      {
+        "name": "Unstoppable Force",
+        "description": "<p>The Pillbug can Roll Up as a quick action, gaining OVERSHIELD equal to 2 + GRIT. While rolled up, it cannot make ranged or tech attacks but its base speed increases to 6. It may end this effect as a Protocol.</p><p>If the Pillbug loses this OVERSHIELD, it automatically unrolls.</p>",
+        "actions": [
+          {
+            "name": "Roll Up",
+            "activation": "Quick",
+            "detail": "Gain OVERSHIELD equal to 2 + GRIT. While rolled up, it cannot make ranged or tech attacks but its base speed increases to 6. It may end this effect as a Protocol.",
+            "confirm": ["RETRACTING EXTERNAL SYSTEMS. ENABLING GYROSTATIC HARNESS. ROCK AND ROLL, PILOT."]
+          }
+        ]
+      },
+      {
+        "name": "Discharged Impact",
+        "description": "When the Pillbug scores a melee critical hit while Rolled Up, it may discharge all stored energy as a Free Action. The triggering attack deals bonus Explosive Damage equal to the Pillbug's current OVERSHIELD and it must succeed on a Hull save or be knocked back 3 spaces and PRONE.",
+        "synergies": [
+          {
+            "locations": [
+              "weapon"
+            ],
+            "weapon_types": [
+              "Melee"
+            ],
+            "weapon_sizes": [
+              "any"
+            ],
+            "detail": "When the Pillbug scores a melee critical hit while Rolled Up, it may discharge all stored energy as a Free Action. The triggering attack deals bonus Explosive Damage equal to the Pillbug's current OVERSHIELD and it must succeed on a Hull save or be knocked back 3 spaces and PRONE."
+          }
+        ]
+      },
+      {
+        "name": "Crushing Roll",
+        "description": "<p>The Pillbug can move through spaces occupied by PRONE hostile characters. When it does so, it can force that character to make a Hull save, taking 1d6 kinetic damage and becoming IMMOBILIZED until the end of their next turn on a failed save.</p><p>A character can be forced to make this save only once per round.</p>",
+        "synergies": [
+          {
+            "locations": [
+              "move"
+            ],
+            "detail": "<p>The Pillbug can move through spaces occupied by PRONE hostile characters. When it does so, it can force that character to make a Hull save, taking 1d6 kinetic damage and becoming IMMOBILIZED until the end of their next turn on a failed save.</p><p>A character can be forced to make this save only once per round.</p>"
+          }
+        ]
+      }
+    ],
+    "core_system": {
+      "name": "Null-K Redirection Engine",
+      "description": "Core System Fluff",
+      "active_name": "Pinball Protocol",
+      "active_effect": "As a Protocol, the Pillbug’s Null-K Redirection Engine’s limiters are removed. For the rest of the scene:<ul><li>The damage from Roly Poly increases to 3 AP Kinetic Damage.</li><li>The self-inflicted Damage from Roly Poly is removed.</li><li>The Pillbug does not need to successfully ram a character in order to activate Roly-Poly.</li><li>The OVERSHIELD gained from Unstoppable Force is increased to 4 + GRIT, and Base Speed while Rolled Up increases to 8.</li><li>All Hull Saves forced by the Pillbug have +1 DIFF</li></ul>",
+      "activation": "Protocol",
+      "passive_name": "Roly-Poly",
+      "passive_effect": "Gain the Roly-Poly Free Action.",
+      "passive_actions": [
+        {
+          "name": "Roly-Poly",
+          "activation": "Free",
+          "detail": "<p>While Rolled Up, successfully ramming a character or object also pushes the Pillbug in a direction of its choice up to its Speed. Both the Pillbug and the character or object take 1 AP Kinetic Damage.</p><p>If the Pillbug lands adjacent to an obstacle or character, it may Ram them as a free Action, repeating the same process.</p><p>It can do this multiple times a turn, but only once for each unique object or character.</p>"
+        }
+      ]
+    },
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_nelson.png",
+    "license_id": "mf_nelson"
+  }
+  
+  
   {
     "id": "kie_metriini",
     "source": "HA",
@@ -499,6 +787,9 @@
     "image_url": "https://cdn.discordapp.com/attachments/984628782109425664/1009827494712574074/KIE_WhirligigProto.png",
     "y_pos": "20"
   },
+  
+  
+  
   {
     "id": "kie_bombardier",
     "license_level": 2,
@@ -554,100 +845,8 @@
     },
     "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_genghis.png"
   },
-  {
-    "id": "mf_pillbug",
-    "license_level": 2,
-    "source": "IPS-N",
-    "name": "PILLBUG",
-    "variant": "NELSON",
-    "mechtype": [
-      "Controller",
-      "Striker"
-    ],
-    "y_pos": 35,
-    "description": "<p>This variant of the Nelson can be taken at rank II of the NELSON license instead of the base Frame, or gained as exotic gear through play.</p><p>The KIE-OWD Pillbug originally started life as an up-armored Nelson variant, replacing the armor plating with a malleable deterrence field, a thought experiment by Rubbleborn engineers to find novel methods in combating pirate boarding parties. Originally just theoretical, an intercepted shipment from a nearby mining colony would see the Rubbleborn there utilize the Pillbug in combat, where it proved to be a promising design.</p><p>Following negotiations with the mining colony, the newly-founded Off-World Division (OWD) of KIE decided to start collaborating with other manufacturers. In a show of good faith, the Pillbug’s schematics were sent to IPS-N proper. Following collaborative refinements, including an outside-of-the-box repurposing of the Nelson’s null-k plating and perpetual motion drive to be focused on what was around the mech, rather than what was inside of it.</p>",
-    "mounts": [
-      "Flex",
-      "Flex",
-      "Main"
-    ],
-    "stats": {
-      "size": 1,
-      "structure": 4,
-      "stress": 4,
-      "armor": 0,
-      "hp": 12,
-      "evasion": 8,
-      "edef": 6,
-      "heatcap": 4,
-      "repcap": 6,
-      "sensor_range": 8,
-      "tech_attack": -2,
-      "save": 11,
-      "speed": 4,
-      "sp": 6
-    },
-    "traits": [
-      {
-        "name": "Unstoppable Force",
-        "description": "<p>The Pillbug can Roll Up as a quick action, gaining OVERSHIELD equal to 2 + GRIT. While rolled up, it cannot make ranged or tech attacks but its base speed increases to 6. It may end this effect as a Protocol.</p><p>If the Pillbug loses this OVERSHIELD, it automatically unrolls.</p>",
-        "actions": [
-          {
-            "name": "Roll Up",
-            "activation": "Quick",
-            "detail": "Gain OVERSHIELD equal to 2 + GRIT. While rolled up, it cannot make ranged or tech attacks but its base speed increases to 6. It may end this effect as a Protocol.",
-            "confirm": ["RETRACTING EXTERNAL SYSTEMS. ENABLING GYROSTATIC HARNESS. ROCK AND ROLL, PILOT."]
-          }
-        ]
-      },
-      {
-        "name": "Discharged Impact",
-        "description": "When the Pillbug scores a melee critical hit while Rolled Up, it may discharge all stored energy as a Free Action. The triggering attack deals bonus Explosive Damage equal to the Pillbug's current OVERSHIELD and it must succeed on a Hull save or be knocked back 3 spaces and PRONE.",
-        "synergies": [
-          {
-            "locations": [
-              "weapon"
-            ],
-            "weapon_types": [
-              "Melee"
-            ],
-            "weapon_sizes": [
-              "any"
-            ],
-            "detail": "When the Pillbug scores a melee critical hit while Rolled Up, it may discharge all stored energy as a Free Action. The triggering attack deals bonus Explosive Damage equal to the Pillbug's current OVERSHIELD and it must succeed on a Hull save or be knocked back 3 spaces and PRONE."
-          }
-        ]
-      },
-      {
-        "name": "Crushing Roll",
-        "description": "<p>The Pillbug can move through spaces occupied by PRONE hostile characters. When it does so, it can force that character to make a Hull save, taking 1d6 kinetic damage and becoming IMMOBILIZED until the end of their next turn on a failed save.</p><p>A character can be forced to make this save only once per round.</p>",
-        "synergies": [
-          {
-            "locations": [
-              "move"
-            ],
-            "detail": "<p>The Pillbug can move through spaces occupied by PRONE hostile characters. When it does so, it can force that character to make a Hull save, taking 1d6 kinetic damage and becoming IMMOBILIZED until the end of their next turn on a failed save.</p><p>A character can be forced to make this save only once per round.</p>"
-          }
-        ]
-      }
-    ],
-    "core_system": {
-      "name": "Null-K Redirection Engine",
-      "description": "Core System Fluff",
-      "active_name": "Pinball Protocol",
-      "active_effect": "As a Protocol, the Pillbug’s Null-K Redirection Engine’s limiters are removed. For the rest of the scene:<ul><li>The damage from Roly Poly increases to 3 AP Kinetic Damage.</li><li>The self-inflicted Damage from Roly Poly is removed.</li><li>The Pillbug does not need to successfully ram a character in order to activate Roly-Poly.</li><li>The OVERSHIELD gained from Unstoppable Force is increased to 4 + GRIT, and Base Speed while Rolled Up increases to 8.</li><li>All Hull Saves forced by the Pillbug have +1 DIFF</li></ul>",
-      "activation": "Protocol",
-      "passive_name": "Roly-Poly",
-      "passive_effect": "Gain the Roly-Poly Free Action.",
-      "passive_actions": [
-        {
-          "name": "Roly-Poly",
-          "activation": "Free",
-          "detail": "<p>While Rolled Up, successfully ramming a character or object also pushes the Pillbug in a direction of its choice up to its Speed. Both the Pillbug and the character or object take 1 AP Kinetic Damage.</p><p>If the Pillbug lands adjacent to an obstacle or character, it may Ram them as a free Action, repeating the same process.</p><p>It can do this multiple times a turn, but only once for each unique object or character.</p>"
-        }
-      ]
-    },
-    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/mf_nelson.png",
-    "license_id": "mf_nelson"
-  }
+  
+  
+  
+  
 ]
