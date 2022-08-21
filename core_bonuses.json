@@ -81,8 +81,7 @@
     "name": "SELF-PERPETUATING SYSTEMS",
     "source": "KIE",
     "effect": "<p>Designed for deep-core and deep-space operations, modifications of specialized nano-cells can allow a component to be regrown rapidly. The system requires extreme amounts of backup energy and material, but proves to be essential on month-long missions outside of established supply networks.</p>",
-    "description": "<p>Choose one system or weapon. If it is destroyed, it is automatically repaired at the end of the Scene for no Repair cost. This can only occur an amount of times equal to half your GRIT each mission, and occurs even when rebuilding a Destroyed mech. If the system is a Deployable or Drone, and the Deployable or Drone was damaged or destroyed, it is automatically restored to full HP at the end of the scene. This does not count against the times Self-Perpetuating Systems can trigger.
-</p>",
+    "description": "<p>Choose one system or weapon. If it is destroyed, it is automatically repaired at the end of the Scene for no Repair cost. This can only occur an amount of times equal to half your GRIT each mission, and occurs even when rebuilding a Destroyed mech. If the system is a Deployable or Drone, and the Deployable or Drone was damaged or destroyed, it is automatically restored to full HP at the end of the scene. This does not count against the times Self-Perpetuating Systems can trigger.</p>",
     "mounted_effect": "",
     "actions": [],
     "bonuses": [],
