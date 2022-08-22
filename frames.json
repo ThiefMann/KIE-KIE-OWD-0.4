@@ -574,7 +574,7 @@
     "traits": [
       {
         "name": "Unstoppable Force",
-        "description": "<p>The Pillbug can Roll Up as a quick action, gaining OVERSHIELD equal to 2 + GRIT. While rolled up, it cannot make ranged or tech attacks but its base speed increases to 6. It may end this effect as a Protocol.</p><p>If the Pillbug loses this OVERSHIELD, it automatically unrolls.</p>",
+        "description": "test",
         "actions": [
           {
             "name": "Roll Up",
