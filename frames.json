@@ -251,7 +251,7 @@
     "core_system": {
       "name": "“AMBROSIA” Field Recycler Systems",
       "active_name": "Cultivate AMBROSIA",
-      "active_effect": "<p>The Weevil selects one wreck within Line of Sight and Sensor Range, to then use 1 Repair to infest the wreck with AMBROSIA nanites.&nbsp;</p><p><br></p><p>At the end of the scene, you can collect the Ambrosia to grant one of the following bonuses to yourself or an allied character:</p><p><br></p><p>- <strong>Rubblesteel Chitin: </strong>The target’s maximum HP increases by 2 and their armor increases by 1 (this can increase their armor past the limit of 4).<br>- <strong>Ethereal Elytra: </strong>The target becomes immune to the <strong>Slowed</strong> condition.</p><p>- <strong>Hive-Insight Drive: </strong>The target’s E-Defense increases by 3, and the final attack roll on their tech attacks cannot suffer from Difficulty.</p><p>- <strong>Breathing Reactor:</strong> The target can use a protocol to clear 2 heat and all Burn.</p><p><br>This action is <strong>Efficient</strong>, and refunds 1 Core Power at the end of any scene in which it’s used.</p><p>A character can only benefit from one instance of each effect, and they last until they perform a Full Repair</p>",
+      "active_effect": "test",
       "activation": "Full",
       "description": "<p><em>Designed by the Rubblefolk early in their history, AMBROSIA nanite colonies were vital in extending the limited supplies they possessed. By breaking down matter into its component parts, they could then reassemble it into something else. The Weevil utilizes these colonies to provide unparalleled flexibility on long-deployment missions.</em></p>",
       "deactivation": "",
