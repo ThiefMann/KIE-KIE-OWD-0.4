@@ -120,15 +120,15 @@
     "special_equipment": []
   },
   {
-    "id": "kie_rsas",
-    "name": "Reactive Shield Armor System",
+    "id": "kie_impact_foam",
+    "name": "Impact-Absorbing Foam",
     "source": "KIE",
     "license": "SCARAB",
     "license_level": 1,
     "effect": "<p>While <strong>Stunned</strong>, gain RESISTANCE to all damage and Heat, and Immunity to the <strong>Shredded </strong>Condition.<br><br>In addition, when you Brace, you may opt to become <strong>Immune </strong>to the damage from the triggering attack, but become <strong>Stunned </strong>until the end of your next turn afterwards.</p>",
     "type": "System",
     "sp": "2",
-    "description": "",
+    "description": "<p>The IAF is a quite crude defensive reinforcement, focused on energy dispersion across the plating surfaces of the frame. This allows the user to withstand greater impacts with relative ease. The memory foam also records impact patterns, allowing the user’s armor to deflect consecutive blows with exponential success.</p>",
     "tags": [
       {
         "id": "tg_shield"
@@ -143,15 +143,15 @@
     "special_equipment": []
   },
   {
-    "id": "kie_retractableplating",
-    "name": "Retractable Plating",
+    "id": "kie_friendship_barrier",
+    "name": "COCOON-Class Energy Barrier",
     "source": "KIE",
     "license": "SCARAB",
     "license_level": 2,
     "effect": "<p>This System’s effects do not stack with other copies of itself if activated through a “Eusocial” Tag.</p>",
     "type": "System",
     "sp": "2",
-    "description": "",
+    "description": "<p>The most advanced piece of deployable cover native to the Rubblefolk, colloquially known as “Cocoon”, this energy projector is able to create a thin, flexible barrier of tangible light that reduces the velocity of projectiles and the radiation levels of plasma-based attacks that pass through it, even managing to segment itself to better cover the user and nearby allies.</p>",
     "tags": [
       {
         "id": "tg_quick_action"
@@ -165,9 +165,9 @@
     ],
     "actions": [
       {
-        "name": "Activate Retractable Plating",
+        "name": "Activate COCOON-Class Energy Barrier",
         "activation": "Quick",
-        "detail": "<p>While this system is active, you and any adjacent allied characters and deployables gain +2 Armor (even going past the maximum of 4 Armor), but your speed is halved.</p>",
+        "detail": "<p>When activating this system, you become <strong>Slowed</strong>, but you create a Line 4 energy shield, 4 spaces high, in free spaces within line of sight and with at least 1 space adjacent to your mech.</p><p>The energy shield provides soft cover, and any hostile ranged or melee attacks that pass through it have their damage reduced by 2, unless the source of the damage is AP. Additionally, if an attack passing through the shield is a miss, you may take 2 Heat to perform a Special Reaction, granting Overshield 1 to an ally or yourself, or increasing existing Overshield by 1.<p></p>The Line can be repositioned as a Protocol, or deactivated as a Quick Action. It moves when you do, and always maintains adjacency; if it cannot, it automatically deactivates. It also deactivates if you become Jammed.</p>",
         "cost": 0,
         "pilot": false,
         "damage": [],
@@ -179,9 +179,9 @@
         "trigger": ""
       },
       {
-        "name": "Deactivate Retractable Plating",
-        "activation": "Protocol",
-        "detail": "<p>Deactivate Retractable Plating, making you and any adjacent allied characters and deployables lose the additional +2 armor, but your speed is no longer halved.</p>",
+        "name": "Deactivate COOCON-Class Energy Barriet",
+        "activation": "Quick",
+        "detail": "<p>Deactivate the COOCON-Clas Energy Barrier, ending the <strong>Slowed</strong> condition on yourself.</p>",
         "cost": 0,
         "pilot": false,
         "damage": [],
@@ -191,7 +191,21 @@
         "frequency": "Unlimited",
         "init": "",
         "trigger": ""
-      }
+      },
+       {
+        "name": "Reposition COOCON-Class Energy Barriet",
+        "activation": "Protocol",
+        "detail": "<p>Reposition or Redirectionate the COOCON-Clas Energy Barrier.</p>",
+        "cost": 0,
+        "pilot": false,
+        "damage": [],
+        "range": [],
+        "synergy_locations": [],
+        "tech_attack": false,
+        "frequency": "Unlimited",
+        "init": "",
+        "trigger": ""
+       },
     ],
     "bonuses": [],
     "synergies": [],
