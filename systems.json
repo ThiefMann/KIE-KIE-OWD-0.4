@@ -7,18 +7,21 @@
     "license_level": 1,
     "effect": "",
     "type": "System",
-    "sp": "1",
+    "sp": "2",
     "description": "",
     "tags": [
       {
         "id": "tg_unique"
+      },
+      {
+        "id": "tg_quick_tech"
       }
     ],
     "actions": [
       {
         "name": "Flickering Flames",
-        "activation": "Protocol",
-        "detail": "<p>Select a hostile target within Sensors and Line of Sight that is currently suffering from Burn. You gain half of their current Burn, and they lose that amount, but they also take an equal amount of AP Energy Damage in return.</p>",
+        "activation": "Quick",
+        "detail": "<p>Select a character within Sensors and Line of Sight that is currently suffering from Burn. You take 1d6 Burn, up of their current Burn, and they clear the same amount. The target then takes AP energy damage equal to the Burn cleared.</p>",
         "cost": 0,
         "pilot": false,
         "damage": [],
