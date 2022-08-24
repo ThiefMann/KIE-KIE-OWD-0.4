@@ -59,7 +59,7 @@
       {
         "name": "Open The Vents",
         "activation": "Reaction",
-        "detail": "<p>They must make an Engineering Save. On&nbsp;failure, they take Burn Damage equal to half your current Burn and become Slowed until the end of their next turn.</p>",
+        "detail": "<p>They must make an Engineering Save. On failure, they take 1d6 Burn, up to an amount equal to their current Burn, then they become Slowed until the end of their next turn.</p>",
         "cost": 0,
         "pilot": false,
         "damage": [],
@@ -68,12 +68,12 @@
         "tech_attack": false,
         "frequency": "1/round",
         "init": "",
-        "trigger": "<p>A hostile character starts their turn within Line of Sight and Sensors.</p>"
+        "trigger": "<p>A hostile character starts their turn within Line of Sight and Sensor range.</p>"
       },
       {
         "name": "Devour Flame",
         "activation": "Reaction",
-        "detail": "<p>You take the Burn instead.</p>",
+        "detail": "<p>They clear 1d6 Burn or reduce the Burn taken by 1d6.</p>",
         "cost": 0,
         "pilot": false,
         "damage": [],
