@@ -92,6 +92,99 @@
     "y_pos": "11"
   },
   {
+    "id": "kie_firefly_b",
+    "source": "KIE",
+    "license_level": 2,
+    "name": "FIREBUG",
+    "mcehtype": [
+      "Stiker"
+  ],
+  "description": "<p> Firefly variant focused on using Burn as a resource.</p>"
+  "mounts": [
+    "Flex",
+    "Main/Aux"
+    ],
+    "stats": {
+      "size": 1,
+      "structure:" 4,
+      "stress:" 4,
+      "structure:" 4,
+      "armor": 1,
+      "hp": 8,
+      "evasion": 10,
+      "edef": 6,
+      "heatcap": "6",
+      "repcap": "4",
+      "sensor_range": 8,
+      "tech_attack": "-2",
+      "save": "11",
+      "speed": 4,
+      "sp": 6,
+    },
+    "traits": [
+      {
+        "name": "Feed the Forge",
+        "use": "",
+        "description": "<p>Burn or failing to clear Burn cannot reduce the Firefly’s HP below 1.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "Playing with FIre",
+        "use": "",
+        "description": "<p>When the Firefly succeeds on an Engineering Check to clear Burn, it may opt to keep the Burn but not take damage.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      },
+      {
+        "name": "Shape the Flame",
+        "use": "",
+        "description": "<p>1/round, when the Firefly would take heat due to one of its systems, talents, traits or weapons, it can ignore any amount of that heat; it then takes Burn equal to the heat ignored.</p><p>1/round, when the Firefly would clear heat, it can clear an equal amount of burn instead.</p>",
+        "actions": [],
+        "bonuses": [],
+        "counters": [],
+        "deployables": [],
+        "synergies": [],
+        "integrated": [],
+        "special_equipment": []
+      }
+  ],
+      "core_system": {
+      "name": "Plasma Manipulator",
+      "active_name": "Master the Flame",
+      "active_effect": "<p>For the rest of the scene, you become Immune to Burn but can still accumulate it, and any time you take or deal Burn, you can increase or reduce that amount by up to 2.</p>",
+      "activation": "Protocol",
+      "description": "<p>burn like a dragon</p>",
+      "deactivation": "",
+      "use": "",
+      "active_actions": [],
+      "active_bonuses": [],
+      "active_synergies": [],
+      "passive_name": "Fire Technique",
+      "passive_effect": "<p>As the Firefly becomes engulfed in flames, it unlocks new techniques to use. Each technique has a listed Burn amount, you must be suffering from Burn equal to or higher than the listed amount to use a technique, and after using them you clear the listed amount of Burn:</p><p>Molten Fist (Any Burn). When you perform an improvised attack, you can clear any amount of Burn to deal that same amount on a hit to your target.</p><p>Iron Skin (Any Burn). As a Quick Action, you clear any amount of Burn and turn it into an equal amount of Overshield, up to 3+Grit. </p><p>Fire Breath (5 Burn). As a Quick Action, you can force characters in a Cone 5 zone to make an Engineering save, on a fail they take 5 Burn and are pushed 2 spaces away from you. On a Success they take 3 Burn and are not pushed.</p><p>Solar Whip (5 Burn). As a Quick Action, you can force a character within range 8 to make a Hull save, taking 5 Burn and falling prone on a fail. On a success they take 3 Burn and are not knocked Prone.</p><p>Magma Fissure (9 Burn). As a Full Action, you can force characters in a Line 10, Cone 7 or Burst 2 zone to make an Agility save, or take 9 Burn. The affected Area becomes dangerous terrain that deals 2 Burn until the end of the scene. You are immune to this dangerous terrain.  </p>",
+      "passive_actions": [],
+      "passive_bonuses": [],
+      "passive_synergies": [],
+      "deployables": [],
+      "counters": [],
+      "integrated": [],
+      "special_equipment": [],
+      "tags": []
+    },
+    "image_url": "",
+    "y_pos": ""
+  },
+  {
     "id": "kie_scarab",
     "source": "KIE",
     "license_level": 2,
