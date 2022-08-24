@@ -101,7 +101,7 @@
     "effect": "<p>As a Quick Action, expend a charge of this system to clear all Burn on yourself or an Adjacent ally.</p>",
     "type": "System",
     "sp": "1",
-    "description": "",
+    "description": "\"In case of emergency, shatter glass and release the foam.\"",
     "tags": [
       {
         "id": "tg_limited",
