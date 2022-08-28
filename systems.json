@@ -836,10 +836,10 @@
 	"source": "KIE",
 	"license": "LONGHORN",
 	"license_level": 1,
-	"effect": "<p>“No, you can't just put a piece of plastic on the Knight piece and call it a ‘Unicorn’. No, you also can't put wings on it and call it a ‘Pegasus’. That's not how this works.\" - Anonymous Union Scientist during the Bi-Annual Jovo Chess Tournament</p>",
+	"effect": "",
 	"type": "Tech",
 	"sp": "2",
-	"description": "",
+	"description": "<p>“No, you can't just put a piece of plastic on the Knight piece and call it a ‘Unicorn’. No, you also can't put wings on it and call it a ‘Pegasus’. That's not how this works.\" - Anonymous Union Scientist during the Bi-Annual Jovo Chess Tournament</p>",
 	"tags": [{
 		"id": "tg_quick_tech"
 	}, {
