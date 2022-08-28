@@ -1,1 +1,64 @@
-[{"id":"kie_typenine","name":"Type-9 Energy Projector","source":"KIE","license":"SCARAB","license_level":1,"effect":"<p>Gain a Charge Die, starting at 1. When you activate a System with the SHIELD tag, increase the Charge Die by 1, up to a maximum of 6.</p><p>You may, as part of an attack with this weapon, consume the Charge Die, resetting it down to 1, as long as the Charge Die has a value greater than 1. The attack gains Reliable Damage equal to the number on the Charge Die when it is expended, the weapon gains <strong>On Hit:</strong> Target becomes <strong>Impaired</strong> until the end of their next turn.&nbsp;</p><p>If fired at maximum Charge (6), this weapon gains <strong>On Hit:</strong> Target becomes <strong>Jammed </strong>until the end of its next turn, and you cannot gain Charge until the start of your next turn.</p>","sp":"1","description":"<p><em>Making use of secondary energy flows created by most energy shields, the Type-9 Energy projector is able to increase the concussive force of most munitions, adding more kick to daze the target for an extended period of time.</em></p>","allowed_types":["Nexus","CQB","Launcher","Cannon","Rifle"],"allowed_sizes":["Main","Auxiliary"],"restricted_types":[],"restricted_sizes":[],"added_damage":[],"added_range":[],"added_tags":[],"tags":[{"id":"tg_unique"},{"id":"tg_shield"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[{"id":"kie_typeninedie","name":"Charge Die","default_value":"1","min":"1","max":"6"}],"integrated":[],"special_equipment":[]},{"id":"kie_secondarypayload","name":"Secondary Payload","source":"KIE","license":"HERCULES","license_level":1,"effect":"<p>1/round, on a hit you may expend a charge as a free action to activate its detonator and deal +1d3 Explosive Damage in a Blast 1 Radius zone centered on the primary target. Then, create two pieces of Size 1 Hard Cover or 1 piece of Size 2 Hard Cover in a free, adjacent space to the Blast 1 Radius.</p>","sp":"1","description":"<p><em>Known to make use of every last piece of available equipment, Rubblefolk are known to fire munitions inside a modified casing meant to separate from the main projectile mid-flight, increasing the blunt force of the impact.</em></p>","allowed_types":["Launcher","Cannon","Nexus"],"allowed_sizes":["Auxiliary","Main","Heavy","Superheavy"],"restricted_types":[],"restricted_sizes":[],"added_damage":[],"added_range":[],"added_tags":[],"tags":[{"id":"tg_unique"},{"id":"tg_limited","val":"2"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[]}]
+[{
+	"id": "kie_typenine",
+	"name": "Type-9 Energy Projector",
+	"source": "KIE",
+	"license": "SCARAB",
+	"license_level": 1,
+	"effect": "<p>Gain a Charge Die, starting at 1. When you activate a System with the SHIELD tag, increase the Charge Die by 1, up to a maximum of 6.</p><p>You may, as part of an attack with this weapon, consume the Charge Die, resetting it down to 1, as long as the Charge Die has a value greater than 1. The attack gains Reliable Damage equal to the number on the Charge Die when it is expended, the weapon gains <strong>On Hit:</strong> Target becomes <strong>Impaired</strong> until the end of their next turn.&nbsp;</p><p>If fired at maximum Charge (6), this weapon gains <strong>On Hit:</strong> Target becomes <strong>Jammed </strong>until the end of its next turn, and you cannot gain Charge until the start of your next turn.</p>",
+	"sp": "1",
+	"description": "<p><em>Making use of secondary energy flows created by most energy shields, the Type-9 Energy projector is able to increase the concussive force of most munitions, adding more kick to daze the target for an extended period of time.</em></p>",
+	"allowed_types": ["Nexus", "CQB", "Launcher", "Cannon", "Rifle"],
+	"allowed_sizes": ["Main", "Auxiliary"],
+	"restricted_types": [],
+	"restricted_sizes": [],
+	"added_damage": [],
+	"added_range": [],
+	"added_tags": [],
+	"tags": [{
+		"id": "tg_unique"
+	}, {
+		"id": "tg_shield"
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [{
+		"id": "kie_typeninedie",
+		"name": "Charge Die",
+		"default_value": "1",
+		"min": "1",
+		"max": "6"
+	}],
+	"integrated": [],
+	"special_equipment": []
+}, {
+	"id": "kie_secondarypayload",
+	"name": "Secondary Payload",
+	"source": "KIE",
+	"license": "HERCULES",
+	"license_level": 1,
+	"effect": "<p>1/round, on a hit you may expend a charge as a free action to activate its detonator and deal +1d3 Explosive Damage in a Blast 1 Radius zone centered on the primary target. Then, create two pieces of Size 1 Hard Cover or 1 piece of Size 2 Hard Cover in a free, adjacent space to the Blast 1 Radius.</p>",
+	"sp": "1",
+	"description": "<p><em>Known to make use of every last piece of available equipment, Rubblefolk are known to fire munitions inside a modified casing meant to separate from the main projectile mid-flight, increasing the blunt force of the impact.</em></p>",
+	"allowed_types": ["Launcher", "Cannon", "Nexus"],
+	"allowed_sizes": ["Auxiliary", "Main", "Heavy", "Superheavy"],
+	"restricted_types": [],
+	"restricted_sizes": [],
+	"added_damage": [],
+	"added_range": [],
+	"added_tags": [],
+	"tags": [{
+		"id": "tg_unique"
+	}, {
+		"id": "tg_limited",
+		"val": "2"
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": []
+}]
