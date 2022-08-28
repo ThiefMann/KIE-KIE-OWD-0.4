@@ -1,1 +1,638 @@
-[{"id":"kie_plasmadrill","name":"Plasma Drill","source":"KIE","license":"FIREFLY","license_level":1,"description":"<p><em>A repurposed mining implement, the Plasma Drill is exactly what it sounds like.</em></p>","effect":"<p>When this weapon triggers Overkill, it does not generate Heat; instead, both the user and target take 1 Burn each time it activates.</p><p>You gain 1 Burn after activating this weapon.</p>","on_attack":"<p></p>","on_hit":"","on_crit":"","mount":"Main","type":"Cannon","cost":"","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Energy","val":"2d3"}],"range":[{"type":"Line","val":5}],"sp":"","tags":[{"id":"tg_overkill"},{"id":"kie_eusocial"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[]},{"id":"kie_pulsecutter","name":"Pulse Cutter","source":"KIE","license":"FIREFLY","license_level":2,"description":"<p><em>The Pulse Cutter was used by many Jovo miners to salvage lost or damaged equipment. The Rubblefolk have adapted and optimized it, increasing its thermal output.</em></p>","effect":"<p>This weapon deals double damage to targets already suffering from Burn.</p>","on_attack":"","on_hit":"","on_crit":"","mount":"Auxiliary","type":"CQB","cost":"","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Energy","val":2},{"type":"Burn","val":1}],"range":[{"type":"Range","val":5},{"type":"Threat","val":3}],"sp":"","tags":[{"id":"tg_unique"},{"id":"tg_heat_self","val":1}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[]},{"id":"kie_type12","name":"Type-12 Particle Manipulator","source":"KIE","license":"SCARAB","license_level":3,"description":"<p><em>The Particle Manipulator was originally a mining scanner, but modifications done to the tool allowed it to create an energy wavelength and catalytic magnetic pulse. This can be used to compact ores, or used for extraction in parts of veins that are more delicate. Similar technology was used to create the Inorganic Particle Disruptor. In combat, the manipulator is also able to increase the integrity of armor plating for a short time.</em></p>","effect":"<p>This weapon can target allied characters as if they had Evasion 8, granting them Overshield instead of dealing damage to them. Overshield generated in this manner stacks, and does not replace existing Overshield, but a character cannot have more Overshield than it has maximum HP.</p><p>This Weapon counts as a Shield system for the purposes of Talents, Traits, and Core Bonuses.</p>","on_attack":"","on_hit":"","on_crit":"","mount":"Main","type":"Rifle","cost":"","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Energy","val":2}],"range":[{"type":"Range","val":8}],"sp":"","tags":[{"id":"tg_shield"},{"id":"tg_unique"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[]},{"id":"kie_modularnexus","name":"Modular Nexus","source":"KIE","license":"WEEVIL","license_level":3,"description":"<p><em>“I am not a gun nut, I just like to be prepared for every occasion… happening at the same time…” - Tyze Kyre, Rubblefolk Salvager and Field Mechanic.</em></p>","effect":"","on_attack":"<p>This weapon does not consume charges normally, instead you may use a charge to apply one of the following effects when using this weapon: <br>- <strong>Bug-shot.</strong> This weapon’s damage increases to 1d6+4 when attacking characters that are Shredded or have 0 armor.</p><p>- <strong>Thermite Flare:</strong> This weapon deals an additional 20AP energy damage to terrain and objects and 1 Burn to characters adjacent to any Size 1 piece of terrain you hit.</p><p>- <strong>Stinger: </strong>This weapon gains Seeking and automatically hits flying targets. <strong>&nbsp;</strong></p><p>- <strong>Patch-Job:</strong> You may target an ally, hitting automatically and granting them 6 Overshield instead of dealing damage.</p><p>- <strong>Scavenge:</strong> Destroy a Size 1 portion of terrain or an object and regain 1 Repair.</p>","on_hit":"","on_crit":"","mount":"Main","type":"Nexus","cost":"","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Kinetic","val":"1d3+1"}],"range":[{"type":"Range","val":8}],"sp":"","tags":[{"id":"tg_smart"},{"id":"tg_limited","val":2}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[]},{"id":"kie_hiex","name":"Hi-Ex Det Launcher","source":"KIE","license":"HERCULES","license_level":1,"description":"<p><em>\"You guys serious? You realize that stuff is </em>highly<em> volatile right? I don’t care if it’s a special cap for mech-grade K-Bullets, you are </em>not<em> sticking TATP in interior ammo belts!\" - Owen “Warden” Clark, Military Advisor to the Rubble</em></p>","effect":"<p>This weapon may be fired while Unloaded. If done in this way, its range is 5, loses BLAST 1 and the damage becomes 1d3 Explosive.</p>","on_attack":"","on_hit":"","on_crit":"","mount":"Main","type":"Launcher","cost":"","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Explosive","val":"1d6"}],"range":[{"type":"Range","val":8},{"type":"Blast","val":1}],"sp":"","tags":[],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[{"name":"Hi-Ex Det Launcher","description":"","effect":"<p></p>","on_attack":"","on_hit":"","on_crit":"","type":"Launcher","cost":"","damage":[{"type":"Explosive","val":"1d6"}],"range":[{"type":"Range","val":8},{"type":"Blast","val":1}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"tags":[{"id":"tg_arcing"},{"id":"tg_loading"}]},{"name":"Hi-Ex Det Launcher (Unloaded)","description":"","effect":"","on_attack":"","on_hit":"","on_crit":"","type":"Launcher","cost":"","damage":[{"type":"Explosive","val":"1d3"}],"range":[{"type":"Range","val":5}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"tags":[{"id":"tg_arcing"}]}]},{"id":"kie_scraplauncher","name":"Scrap Launcher","source":"KIE","license":"HERCULES","license_level":2,"description":"<p><em>Scrap Launchers are surprisingly versatile pieces of equipment. Designed primarily to reduce the number of wasted resources during manufacturing and repurposing them into mining charges, Rubblefolk found that they could tune the weapon to further its effectiveness.</em></p>","effect":"","on_attack":"<p>Choose this weapon’s damage type. Additionally, take Heat to provide any of the following effects. Each effect can only be chosen once per attack per weapon:</p><ul><li><p>1 Heat: This weapon gains the “Arcing” tag.</p></li><li><p>1 Heat: This weapon gains the “Smart” tag.</p></li><li><p>2 Heat: This weapon creates a Line 3 pattern starting from its target in a direction of your choice.</p></li><li><p>2 Heat: This weapon’s range becomes Range 8 + Blast 1</p></li><li><p>2 Heat: Adjacent hostile characters must make a Hull Save. On a failure, they take 2 Damage of the attack’s type.</p></li></ul>","on_hit":"","on_crit":"","mount":"Auxiliary","type":"Launcher","cost":"","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Variable","val":2}],"range":[{"type":"Range","val":8}],"sp":"","tags":[{"id":"tg_loading"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[]},{"id":"kie_padrino","name":"\"Padrino\"","source":"KIE","license":"HERCULES","license_level":3,"description":"<p><em>Lovingly nicknamed the “Godfather” by its users, the Type-3 Grenade Projector is a simplistic piece of kit designed to be used to clear large cave-ins.</em></p>","effect":"<p></p>","on_attack":"<p>You may take 1 Heat to cause this weapon to deal +1 Burn, up to a maximum of 6 Heat for 6 Burn.</p>","on_hit":"","on_crit":"","mount":"Superheavy","type":"Launcher","cost":"0","barrage":false,"skirmish":false,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[],"range":[],"sp":0,"tags":[],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[{"name":"\"Padrino\"","description":"","effect":"<p>As a Quick Action, you may Overload the Padrino.</p>","on_attack":"<p>You may take 1 Heat to cause this weapon to deal +1 Burn, up to a maximum of 6 Heat for 6 Burn.</p>","on_hit":"","on_crit":"","type":"Launcher","cost":"","damage":[{"type":"Explosive","val":"8"}],"range":[{"type":"Range","val":10}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"tags":[{"id":"tg_arcing"}]},{"name":"“Padrino” (Overloaded)","description":"","effect":"<p>This weapon makes up to three Attacks when you Barrage with this Profile.</p>","on_attack":"<p>After each Attack, generate 1 Heat.</p>","on_hit":"","on_crit":"<p>This weapon deals +1d3 Burn.</p>","type":"Launcher","cost":"","damage":[{"type":"Explosive","val":"3"},{"type":"Energy","val":"3"}],"range":[{"type":"Range","val":10},{"type":"Blast","val":"1"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"tags":[{"id":"tg_arcing"},{"id":"tg_ordnance"}]}]},{"id":"mw_metriini_integrated","name":"SD9 MOLTENCORE","mount":"Main","type":"Launcher","profiles":[{"name":"1 Charge","range":[{"type":"Range","val":10},{"type":"Line","val":4}],"damage":[{"type":"Explosive","val":"2"},{"type":"Burn","val":"2"}],"effect":"This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."},{"name":"2 Charges","range":[{"type":"Range","val":10},{"type":"Line","val":8}],"damage":[{"type":"Explosive","val":"2"},{"type":"Burn","val":"4"}],"effect":"This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."},{"name":"3 Charges","range":[{"type":"Range","val":10},{"type":"Line","val":12}],"damage":[{"type":"Explosive","val":"2"},{"type":"Burn","val":"6"}],"effect":"This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."},{"name":"4 Charges","range":[{"type":"Range","val":10},{"type":"Line","val":16}],"damage":[{"type":"Explosive","val":"2"},{"type":"Burn","val":"8"}],"effect":"This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."}],"tags":[{"id":"tg_heat_self","val":1},{"id":"tg_arcing"}],"license_id":""},{"id":"kie_lucanidae","name":"“Lucanidae” Cargo Manipulator","source":"KIE","license":"STAG","license_level":3,"description":"<p><em>An extendable armature tipped with a grasping claw, the “Lucanidae” Cargo Manipulator is designed for moving heavy objects at a distance. It is held together by rigid nano-ligaments, while artificial musculature operates the internal skeleton.</em></p>","effect":"","on_attack":"","on_hit":"","on_crit":"","mount":"Superheavy","type":"Melee","cost":1,"barrage":true,"skirmish":true,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[],"range":[],"sp":0,"tags":[],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[{"name":"Uncharged","description":"","effect":"<p>This weapon may be used to Skirmish with the Uncharged profile.<br><br>It may also be Charged up as a Quick Action. While Charged, you become Immobilized, but gain Resistance to all Damage, Heat, and Burn and use the Charged Profile for your next attack.</p>","on_attack":"","on_hit":"","on_crit":"<p>Target is knocked Prone</p>","type":"Melee","cost":1,"damage":[{"type":"Kinetic","val":"1d6+1"}],"range":[{"type":"Threat","val":"2"}],"actions":[{"name":"Charge Lucanidae","activation":"Quick","detail":"<p>You charge the Lucanidae, switching to the Charged profile for your next attack.</p>","cost":0,"pilot":false,"damage":[],"range":[],"synergy_locations":[],"tech_attack":false,"frequency":"Unlimited","init":"","trigger":""}],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"tags":[]},{"name":"Charged","description":"","effect":"","on_attack":"","on_hit":"<p>Target is knocked <strong>Prone</strong>.</p>","on_crit":"<p>Targets of the same size or smaller to the user are pulled adjacent to them in a straight line, or as close as possible. If they’re larger, the user is pulled adjacent to them instead. </p><p>If the target or the user ends their movement adjacent to each other, the user may grapple the Target as a Free Action immediately after.</p>","type":"","cost":1,"damage":[{"type":"Kinetic","val":"2d6+2"}],"range":[{"type":"Threat","val":"5"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"tags":[]}]},{"id":"kie_banebless","name":"Bane/Bless Nexus","source":"KIE","license":"LONGHORN","license_level":1,"description":"<p><em>The heavily modified Bane/Bless nanite pattern differs from other automated munitions used by the Rubblefolk, running a binary-state code that grants it the versatility of a frame’s full computer network.</em></p><p><em>Upon a successful breach, the Bane/Bless code is able to briefly control the target’s system, allowing the user to further sabotage or transfer data to allies. Whether this was developed for combat or to further enforce the Longhorn’s role as a chess arbiter is unknown.</em></p>","effect":"","on_attack":"","on_hit":"","on_crit":"<p>Choose one effect:&nbsp;</p><ul><li><p>The target becomes Impaired until the end of their next turn.</p></li><li><p>You may Bolster an ally within range as a Free Action.</p></li></ul>","mount":"Main","type":"Nexus","cost":1,"barrage":true,"skirmish":true,"no_attack":false,"no_mods":false,"no_core_bonus":false,"no_bonus":false,"no_synergy":false,"damage":[{"type":"Kinetic","val":"1d3+1"}],"range":[{"type":"Range","val":10}],"sp":"1","tags":[{"id":"tg_accurate"},{"id":"tg_smart"}],"actions":[],"bonuses":[],"synergies":[],"deployables":[],"counters":[],"integrated":[],"special_equipment":[],"profiles":[]}]
+[{
+	"id": "kie_plasmadrill",
+	"name": "Plasma Drill",
+	"source": "KIE",
+	"license": "FIREFLY",
+	"license_level": 1,
+	"description": "<p><em>A repurposed mining implement, the Plasma Drill is exactly what it sounds like.</em></p>",
+	"effect": "<p>When this weapon triggers Overkill, it does not generate Heat; instead, both the user and target take 1 Burn each time it activates.</p><p>You gain 1 Burn after activating this weapon.</p>",
+	"on_attack": "<p></p>",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Main",
+	"type": "Cannon",
+	"cost": "",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Energy",
+		"val": "2d3"
+	}],
+	"range": [{
+		"type": "Line",
+		"val": 5
+	}],
+	"sp": "",
+	"tags": [{
+		"id": "tg_overkill"
+	}, {
+		"id": "kie_eusocial"
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": []
+}, {
+	"id": "kie_pulsecutter",
+	"name": "Pulse Cutter",
+	"source": "KIE",
+	"license": "FIREFLY",
+	"license_level": 2,
+	"description": "<p><em>The Pulse Cutter was used by many Jovo miners to salvage lost or damaged equipment. The Rubblefolk have adapted and optimized it, increasing its thermal output.</em></p>",
+	"effect": "<p>This weapon deals double damage to targets already suffering from Burn.</p>",
+	"on_attack": "",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Auxiliary",
+	"type": "CQB",
+	"cost": "",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Energy",
+		"val": 2
+	}, {
+		"type": "Burn",
+		"val": 1
+	}],
+	"range": [{
+		"type": "Range",
+		"val": 5
+	}, {
+		"type": "Threat",
+		"val": 3
+	}],
+	"sp": "",
+	"tags": [{
+		"id": "tg_unique"
+	}, {
+		"id": "tg_heat_self",
+		"val": 1
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": []
+}, {
+	"id": "kie_type12",
+	"name": "Type-12 Particle Manipulator",
+	"source": "KIE",
+	"license": "SCARAB",
+	"license_level": 3,
+	"description": "<p><em>The Particle Manipulator was originally a mining scanner, but modifications done to the tool allowed it to create an energy wavelength and catalytic magnetic pulse. This can be used to compact ores, or used for extraction in parts of veins that are more delicate. Similar technology was used to create the Inorganic Particle Disruptor. In combat, the manipulator is also able to increase the integrity of armor plating for a short time.</em></p>",
+	"effect": "<p>This weapon can target allied characters as if they had Evasion 8, granting them Overshield instead of dealing damage to them. Overshield generated in this manner stacks, and does not replace existing Overshield, but a character cannot have more Overshield than it has maximum HP.</p><p>This Weapon counts as a Shield system for the purposes of Talents, Traits, and Core Bonuses.</p>",
+	"on_attack": "",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Main",
+	"type": "Rifle",
+	"cost": "",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Energy",
+		"val": 2
+	}],
+	"range": [{
+		"type": "Range",
+		"val": 8
+	}],
+	"sp": "",
+	"tags": [{
+		"id": "tg_shield"
+	}, {
+		"id": "tg_unique"
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": []
+}, {
+	"id": "kie_modularnexus",
+	"name": "Modular Nexus",
+	"source": "KIE",
+	"license": "WEEVIL",
+	"license_level": 3,
+	"description": "<p><em>“I am not a gun nut, I just like to be prepared for every occasion… happening at the same time…” - Tyze Kyre, Rubblefolk Salvager and Field Mechanic.</em></p>",
+	"effect": "",
+	"on_attack": "<p>This weapon does not consume charges normally, instead you may use a charge to apply one of the following effects when using this weapon: <br>- <strong>Bug-shot.</strong> This weapon’s damage increases to 1d6+4 when attacking characters that are Shredded or have 0 armor.</p><p>- <strong>Thermite Flare:</strong> This weapon deals an additional 20AP energy damage to terrain and objects and 1 Burn to characters adjacent to any Size 1 piece of terrain you hit.</p><p>- <strong>Stinger: </strong>This weapon gains Seeking and automatically hits flying targets. <strong>&nbsp;</strong></p><p>- <strong>Patch-Job:</strong> You may target an ally, hitting automatically and granting them 6 Overshield instead of dealing damage.</p><p>- <strong>Scavenge:</strong> Destroy a Size 1 portion of terrain or an object and regain 1 Repair.</p>",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Main",
+	"type": "Nexus",
+	"cost": "",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Kinetic",
+		"val": "1d3+1"
+	}],
+	"range": [{
+		"type": "Range",
+		"val": 8
+	}],
+	"sp": "",
+	"tags": [{
+		"id": "tg_smart"
+	}, {
+		"id": "tg_limited",
+		"val": 2
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": []
+}, {
+	"id": "kie_hiex",
+	"name": "Hi-Ex Det Launcher",
+	"source": "KIE",
+	"license": "HERCULES",
+	"license_level": 1,
+	"description": "<p><em>\"You guys serious? You realize that stuff is </em>highly<em> volatile right? I don’t care if it’s a special cap for mech-grade K-Bullets, you are </em>not<em> sticking TATP in interior ammo belts!\" - Owen “Warden” Clark, Military Advisor to the Rubble</em></p>",
+	"effect": "<p>This weapon may be fired while Unloaded. If done in this way, its range is 5, loses BLAST 1 and the damage becomes 1d3 Explosive.</p>",
+	"on_attack": "",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Main",
+	"type": "Launcher",
+	"cost": "",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Explosive",
+		"val": "1d6"
+	}],
+	"range": [{
+		"type": "Range",
+		"val": 8
+	}, {
+		"type": "Blast",
+		"val": 1
+	}],
+	"sp": "",
+	"tags": [],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": [{
+		"name": "Hi-Ex Det Launcher",
+		"description": "",
+		"effect": "<p></p>",
+		"on_attack": "",
+		"on_hit": "",
+		"on_crit": "",
+		"type": "Launcher",
+		"cost": "",
+		"damage": [{
+			"type": "Explosive",
+			"val": "1d6"
+		}],
+		"range": [{
+			"type": "Range",
+			"val": 8
+		}, {
+			"type": "Blast",
+			"val": 1
+		}],
+		"actions": [],
+		"bonuses": [],
+		"synergies": [],
+		"deployables": [],
+		"counters": [],
+		"integrated": [],
+		"special_equipment": [],
+		"tags": [{
+			"id": "tg_arcing"
+		}, {
+			"id": "tg_loading"
+		}]
+	}, {
+		"name": "Hi-Ex Det Launcher (Unloaded)",
+		"description": "",
+		"effect": "",
+		"on_attack": "",
+		"on_hit": "",
+		"on_crit": "",
+		"type": "Launcher",
+		"cost": "",
+		"damage": [{
+			"type": "Explosive",
+			"val": "1d3"
+		}],
+		"range": [{
+			"type": "Range",
+			"val": 5
+		}],
+		"actions": [],
+		"bonuses": [],
+		"synergies": [],
+		"deployables": [],
+		"counters": [],
+		"integrated": [],
+		"special_equipment": [],
+		"tags": [{
+			"id": "tg_arcing"
+		}]
+	}]
+}, {
+	"id": "kie_scraplauncher",
+	"name": "Scrap Launcher",
+	"source": "KIE",
+	"license": "HERCULES",
+	"license_level": 2,
+	"description": "<p><em>Scrap Launchers are surprisingly versatile pieces of equipment. Designed primarily to reduce the number of wasted resources during manufacturing and repurposing them into mining charges, Rubblefolk found that they could tune the weapon to further its effectiveness.</em></p>",
+	"effect": "",
+	"on_attack": "<p>Choose this weapon’s damage type. Additionally, take Heat to provide any of the following effects. Each effect can only be chosen once per attack per weapon:</p><ul><li><p>1 Heat: This weapon gains the “Arcing” tag.</p></li><li><p>1 Heat: This weapon gains the “Smart” tag.</p></li><li><p>2 Heat: This weapon creates a Line 3 pattern starting from its target in a direction of your choice.</p></li><li><p>2 Heat: This weapon’s range becomes Range 8 + Blast 1</p></li><li><p>2 Heat: Adjacent hostile characters must make a Hull Save. On a failure, they take 2 Damage of the attack’s type.</p></li></ul>",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Auxiliary",
+	"type": "Launcher",
+	"cost": "",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Variable",
+		"val": 2
+	}],
+	"range": [{
+		"type": "Range",
+		"val": 8
+	}],
+	"sp": "",
+	"tags": [{
+		"id": "tg_loading"
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": []
+}, {
+	"id": "kie_padrino",
+	"name": "\"Padrino\"",
+	"source": "KIE",
+	"license": "HERCULES",
+	"license_level": 3,
+	"description": "<p><em>Lovingly nicknamed the “Godfather” by its users, the Type-3 Grenade Projector is a simplistic piece of kit designed to be used to clear large cave-ins.</em></p>",
+	"effect": "<p></p>",
+	"on_attack": "<p>You may take 1 Heat to cause this weapon to deal +1 Burn, up to a maximum of 6 Heat for 6 Burn.</p>",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Superheavy",
+	"type": "Launcher",
+	"cost": "0",
+	"barrage": false,
+	"skirmish": false,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [],
+	"range": [],
+	"sp": 0,
+	"tags": [],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": [{
+		"name": "\"Padrino\"",
+		"description": "",
+		"effect": "<p>As a Quick Action, you may Overload the Padrino.</p>",
+		"on_attack": "<p>You may take 1 Heat to cause this weapon to deal +1 Burn, up to a maximum of 6 Heat for 6 Burn.</p>",
+		"on_hit": "",
+		"on_crit": "",
+		"type": "Launcher",
+		"cost": "",
+		"damage": [{
+			"type": "Explosive",
+			"val": "8"
+		}],
+		"range": [{
+			"type": "Range",
+			"val": 10
+		}],
+		"actions": [],
+		"bonuses": [],
+		"synergies": [],
+		"deployables": [],
+		"counters": [],
+		"integrated": [],
+		"special_equipment": [],
+		"tags": [{
+			"id": "tg_arcing"
+		}]
+	}, {
+		"name": "“Padrino” (Overloaded)",
+		"description": "",
+		"effect": "<p>This weapon makes up to three Attacks when you Barrage with this Profile.</p>",
+		"on_attack": "<p>After each Attack, generate 1 Heat.</p>",
+		"on_hit": "",
+		"on_crit": "<p>This weapon deals +1d3 Burn.</p>",
+		"type": "Launcher",
+		"cost": "",
+		"damage": [{
+			"type": "Explosive",
+			"val": "3"
+		}, {
+			"type": "Energy",
+			"val": "3"
+		}],
+		"range": [{
+			"type": "Range",
+			"val": 10
+		}, {
+			"type": "Blast",
+			"val": "1"
+		}],
+		"actions": [],
+		"bonuses": [],
+		"synergies": [],
+		"deployables": [],
+		"counters": [],
+		"integrated": [],
+		"special_equipment": [],
+		"tags": [{
+			"id": "tg_arcing"
+		}, {
+			"id": "tg_ordnance"
+		}]
+	}]
+}, {
+	"id": "mw_metriini_integrated",
+	"name": "SD9 MOLTENCORE",
+	"mount": "Main",
+	"type": "Launcher",
+	"profiles": [{
+		"name": "1 Charge",
+		"range": [{
+			"type": "Range",
+			"val": 10
+		}, {
+			"type": "Line",
+			"val": 4
+		}],
+		"damage": [{
+			"type": "Explosive",
+			"val": "2"
+		}, {
+			"type": "Burn",
+			"val": "2"
+		}],
+		"effect": "This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."
+	}, {
+		"name": "2 Charges",
+		"range": [{
+			"type": "Range",
+			"val": 10
+		}, {
+			"type": "Line",
+			"val": 8
+		}],
+		"damage": [{
+			"type": "Explosive",
+			"val": "2"
+		}, {
+			"type": "Burn",
+			"val": "4"
+		}],
+		"effect": "This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."
+	}, {
+		"name": "3 Charges",
+		"range": [{
+			"type": "Range",
+			"val": 10
+		}, {
+			"type": "Line",
+			"val": 12
+		}],
+		"damage": [{
+			"type": "Explosive",
+			"val": "2"
+		}, {
+			"type": "Burn",
+			"val": "6"
+		}],
+		"effect": "This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."
+	}, {
+		"name": "4 Charges",
+		"range": [{
+			"type": "Range",
+			"val": 10
+		}, {
+			"type": "Line",
+			"val": 16
+		}],
+		"damage": [{
+			"type": "Explosive",
+			"val": "2"
+		}, {
+			"type": "Burn",
+			"val": "8"
+		}],
+		"effect": "This weapon’s profile is determined by the number of Charges it carries. It begins with 1 Charge, dealing 2 explosive with line 4. Each time you Stabilize, you gain an additional 1 Charge, up to a maximum of 4. The SD9 gains an additional +4 line and +2 burn damage for each charge, and resets to 1 Charge after each attack. Charges persist between scenes, but are lost during a full repair."
+	}],
+	"tags": [{
+		"id": "tg_heat_self",
+		"val": 1
+	}, {
+		"id": "tg_arcing"
+	}],
+	"license_id": ""
+}, {
+	"id": "kie_lucanidae",
+	"name": "“Lucanidae” Cargo Manipulator",
+	"source": "KIE",
+	"license": "STAG",
+	"license_level": 3,
+	"description": "<p><em>An extendable armature tipped with a grasping claw, the “Lucanidae” Cargo Manipulator is designed for moving heavy objects at a distance. It is held together by rigid nano-ligaments, while artificial musculature operates the internal skeleton.</em></p>",
+	"effect": "",
+	"on_attack": "",
+	"on_hit": "",
+	"on_crit": "",
+	"mount": "Superheavy",
+	"type": "Melee",
+	"cost": 1,
+	"barrage": true,
+	"skirmish": true,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [],
+	"range": [],
+	"sp": 0,
+	"tags": [],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": [{
+		"name": "Uncharged",
+		"description": "",
+		"effect": "<p>This weapon may be used to Skirmish with the Uncharged profile.<br><br>It may also be Charged up as a Quick Action. While Charged, you become Immobilized, but gain Resistance to all Damage, Heat, and Burn and use the Charged Profile for your next attack.</p>",
+		"on_attack": "",
+		"on_hit": "",
+		"on_crit": "<p>Target is knocked Prone</p>",
+		"type": "Melee",
+		"cost": 1,
+		"damage": [{
+			"type": "Kinetic",
+			"val": "1d6+1"
+		}],
+		"range": [{
+			"type": "Threat",
+			"val": "2"
+		}],
+		"actions": [{
+			"name": "Charge Lucanidae",
+			"activation": "Quick",
+			"detail": "<p>You charge the Lucanidae, switching to the Charged profile for your next attack.</p>",
+			"cost": 0,
+			"pilot": false,
+			"damage": [],
+			"range": [],
+			"synergy_locations": [],
+			"tech_attack": false,
+			"frequency": "Unlimited",
+			"init": "",
+			"trigger": ""
+		}],
+		"bonuses": [],
+		"synergies": [],
+		"deployables": [],
+		"counters": [],
+		"integrated": [],
+		"special_equipment": [],
+		"tags": []
+	}, {
+		"name": "Charged",
+		"description": "",
+		"effect": "",
+		"on_attack": "",
+		"on_hit": "<p>Target is knocked <strong>Prone</strong>.</p>",
+		"on_crit": "<p>Targets of the same size or smaller to the user are pulled adjacent to them in a straight line, or as close as possible. If they’re larger, the user is pulled adjacent to them instead. </p><p>If the target or the user ends their movement adjacent to each other, the user may grapple the Target as a Free Action immediately after.</p>",
+		"type": "",
+		"cost": 1,
+		"damage": [{
+			"type": "Kinetic",
+			"val": "2d6+2"
+		}],
+		"range": [{
+			"type": "Threat",
+			"val": "5"
+		}],
+		"actions": [],
+		"bonuses": [],
+		"synergies": [],
+		"deployables": [],
+		"counters": [],
+		"integrated": [],
+		"special_equipment": [],
+		"tags": []
+	}]
+}, {
+	"id": "kie_banebless",
+	"name": "Bane/Bless Nexus",
+	"source": "KIE",
+	"license": "LONGHORN",
+	"license_level": 1,
+	"description": "<p><em>The heavily modified Bane/Bless nanite pattern differs from other automated munitions used by the Rubblefolk, running a binary-state code that grants it the versatility of a frame’s full computer network.</em></p><p><em>Upon a successful breach, the Bane/Bless code is able to briefly control the target’s system, allowing the user to further sabotage or transfer data to allies. Whether this was developed for combat or to further enforce the Longhorn’s role as a chess arbiter is unknown.</em></p>",
+	"effect": "",
+	"on_attack": "",
+	"on_hit": "",
+	"on_crit": "<p>Choose one effect:&nbsp;</p><ul><li><p>The target becomes Impaired until the end of their next turn.</p></li><li><p>You may Bolster an ally within range as a Free Action.</p></li></ul>",
+	"mount": "Main",
+	"type": "Nexus",
+	"cost": 1,
+	"barrage": true,
+	"skirmish": true,
+	"no_attack": false,
+	"no_mods": false,
+	"no_core_bonus": false,
+	"no_bonus": false,
+	"no_synergy": false,
+	"damage": [{
+		"type": "Kinetic",
+		"val": "1d3+1"
+	}],
+	"range": [{
+		"type": "Range",
+		"val": 10
+	}],
+	"sp": "1",
+	"tags": [{
+		"id": "tg_accurate"
+	}, {
+		"id": "tg_smart"
+	}],
+	"actions": [],
+	"bonuses": [],
+	"synergies": [],
+	"deployables": [],
+	"counters": [],
+	"integrated": [],
+	"special_equipment": [],
+	"profiles": []
+}]
